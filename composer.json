@@ -77,7 +77,7 @@
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
         ],
         "vercel": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php -r \"copy('vendor/livewire/flux/dist/flux.css', 'resources/css/flux.css');\"",
             "npm run build"
         ]
     },
