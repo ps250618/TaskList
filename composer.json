@@ -75,6 +75,11 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ],
+        "vercel": [
+            "composer config http-basic.composer.fluxui.dev \"$FLUX_USERNAME\" \"$FLUX_LICENSE_KEY\"",
+            "composer install --no-interaction",
+            "npm run build"
         ]
     },
     "extra": {
