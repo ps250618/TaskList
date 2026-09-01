@@ -6,6 +6,3 @@
  */
 require __DIR__.'/../public/index.php';
 
-header('Content-Type: text/plain');
-
-echo 'PHP OK';
