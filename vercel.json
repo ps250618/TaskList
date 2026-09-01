@@ -28,7 +28,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/resources/dashbaord.blade.php"
+            "dest": "/resources/dashboard.blade.php"
         }
     ],
     "env": {
