@@ -6,4 +6,3 @@
  */
 require __DIR__.'/../public/index.php';
 
-echo "Vercel PHP werkt!";
