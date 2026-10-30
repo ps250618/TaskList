@@ -1,1 +1,7 @@
 /vendor
+bootstrap/cache/*.php
+storage/logs
+storage/framework/views
+node_modules
+.env
+.env.local
